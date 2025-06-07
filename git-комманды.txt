@@ -1,0 +1,13 @@
+git config --global user.name "shivanxt578"
+git config --global user.email "shivanxt578@gmail.ru"
+
+
+cd НАЗВАНИЕ_РЕПОЗИТОРИЯ
+
+git status
+
+git add .
+
+git commit -m ""
+
+git push --set-upstream origin main

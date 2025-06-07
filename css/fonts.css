@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'TT Firs Nuen';
+    src: url('/fonts/TTFirsNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'TT Firs Nuen Light';
+    src: url('/fonts/TTFirsNeue-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }

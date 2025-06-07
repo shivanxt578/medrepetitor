@@ -1,0 +1,517 @@
+@import "./reset.css";
+@import "./fonts.css";
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Regular.eot');
+    src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+        url('/fonts/TTFirsNeue-Regular.woff2') format('woff2'),
+        url('/fonts/TTFirsNeue-Regular.woff') format('woff'),
+        url('/fonts/TTFirsNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('/fonts/TTFirsNeue-Bold.eot');
+    src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
+        url('/fonts/TTFirsNeue-Bold.woff2') format('woff2'),
+        url('/fonts/TTFirsNeue-Bold.woff') format('woff'),
+        url('/fonts/TTFirsNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Medium.eot');
+    src: local('TT Firs Neue Medium'), local('TTFirsNeue-Medium'),
+        url('/fonts/TTFirsNeue-Medium.woff2') format('woff2'),
+        url('/fonts/TTFirsNeue-Medium.woff') format('woff'),
+        url('/fonts/TTFirsNeue-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('/fonts/TTFirsNeue-DemiBold.eot');
+    src: local('TT Firs Neue DemiBold'), local('TTFirsNeue-DemiBold'),
+        url('/fonts/TTFirsNeue-DemiBold.woff2') format('woff2'),
+        url('/fonts/TTFirsNeue-DemiBold.woff') format('woff'),
+        url('/fonts/TTFirsNeue-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+html{
+    box-sizing: border-box;
+}
+a{   
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+}
+body{
+    min-width: 1200px;
+}
+ .list-reset{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+
+ }
+ .btn-reset{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+ }
+.flex{
+    display: flex;
+}
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+padding: 36px 0;
+}
+.header-container{
+    align-items: center;
+}
+.header-logo{
+  margin-right: auto;
+  width: 230px;
+}
+.header-nav{
+    margin-right: 52px;
+}
+.header-list-item:not(:last-child){
+    margin-right: 52px;
+}
+.socials-list{
+    margin-right: 52px;
+}
+.prepod a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 21px;
+    z-index: 4;
+}
+.prepod a:hover{
+   color: #1eaad2;
+   transition: 0.2s;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+.socseti li{
+    list-style-type: none;
+}
+.socseti a{
+
+    z-index: 3;
+    opacity: 0.5;
+}
+.socseti a:hover{
+    opacity: 1;
+}
+ .social-icon-instagram{
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+.social-icon-telegram{
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+.social-icon-youtube{
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+.social-icon-vk{
+    width: 35px;
+    height: 35x;
+  }
+.telephone{
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+    z-index: 4;
+    text-shadow: 2px 2px 5px #13a8e4;
+}
+.header-bottom {
+    display: flex;
+
+}
+.header-hero {
+    display: flex;
+    width: 1350px;
+}
+.header-heading {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 55px;
+    color: #1EAAD2;
+    font-family: 'TT Firs Nuen';
+
+}
+.header-contant p {
+    font-family: 'TT Firs Nuen';
+    font-size: 28px;
+}
+.header-img {
+    width: 1500px;
+   
+}
+.button {
+    margin-top: 50px;
+    width: 400px;
+    height: 100px;
+    background-color: #1EAAD2;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    font-family: 'TT Firs Nuen';
+    transition: background-color 0.25s ease-in-out;
+}
+.button:hover {
+   background-color: #d84501; 
+}
+.korobov_oleg-column {
+    margin-top: 50px ;
+    text-align: center;
+}
+.korobov_oleg-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.korobov_oleg-descr {
+    font-family: 'TT Firs Nuen Light';
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.oleg_info_block {
+    width: 900px; 
+    left: 247px; 
+    top: 394px; 
+    height: 460px;
+    background-color: #1EAAD2;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 100px;
+    z-index: 1;
+}
+.oleg_info_photo {
+    width: 276px;
+    z-index: 3;
+}
+.oleg_info_text {
+    width: 420px;
+    color: aliceblue;
+    align-content: center;
+    text-align: left;
+}
+.oleg_info_text_item{
+    text-align: left;
+}
+.oleg_info_text_item {
+    font-size: 20.5px;
+    line-height: 26px;
+    font-family: 'TT Firs Nuen';
+}
+.pad_text {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'TT Firs Nuen';
+}
+.marg_text {
+     margin-bottom: 10px;
+}
+.pad_left {
+    width: 550px;
+    padding: 50px;
+}
+.oleg_info_dnk {
+    position: absolute;
+    opacity: 0.2;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    z-index: 2;
+    display: table-cell;
+    vertical-align: middle;
+    transform: rotate(30deg);
+}
+.advantages {
+    padding: 90px 0;
+}
+.advantages-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+.advantages-card {
+    width: 250px;
+    text-align: center;
+}
+.advantages-card-img {
+    margin-bottom: 30px;
+    width: 150px;
+    height: 150px;
+}
+.advantages-card-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.advantages-card-descr {
+    font-family: 'TT Firs Nuen';
+}
+.principles_column {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.principles_title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+}
+.principles_descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.course {
+    padding: 90px 0;
+    text-align: center;
+}
+.course_head {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.course-top-block {
+display: flex;
+margin-bottom: 65px;
+justify-content: space-around;
+}
+.course-bottom-block {
+    display: flex;
+    justify-content: center;
+}
+.course-card {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 600px;
+
+    border-radius: 20px; 
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.course-bottom-card {
+    display: flex;
+    width: 1005px;
+    height: 420px;
+
+    border-radius: 20px;
+}
+.course_img {
+    width: 320px;
+}
+.course_img_bottom {
+    width: 450px
+}
+.course-card-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+.course-card-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+}
+.test-bio {
+    margin-bottom: 250px;
+}
+.test-bio-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.test-bio-image {
+    width: 800px;
+}
+.test-bio-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+}
+.test-bio-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+    margin: 20px;
+}
+.test-chem {
+    margin-bottom: 250px;
+}
+.test-chem-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.test-chem-image {
+    width: 1000px;
+}
+.test-chem-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+}
+.test-chem-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+    margin: 20px;
+}
+.platform {
+    margin-bottom: 150px;
+
+}
+.platform-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.platform-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+}
+.platform-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+    margin: 20px;
+}
+.platform-image {
+    width: 800px;
+}
+.reviews {
+    margin-bottom: 120px;
+    text-align: center;
+}
+.review-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+/*Слайдер*/
+.swiper {
+    width: 850px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    cursor: pointer;
+}
+.swiper-slide {
+    text-align: center;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+      position: absolute;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+.swiper-pagination-bullet {
+    background-color: #999;
+  }
+.swiper-pagination-bullet-active {
+    background-color: #333;
+  }
+  .block-margin {
+    height: 30px;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+    .slider-pic {
+    margin-bottom: 120px;
+    text-align: center;
+  }   
+    .pic-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .block-margin-pic {
+    height: 35px;
+  }
+
+/*Доп инфо*/
+  .dop-info {
+    margin-bottom: 45px;
+    text-align: center;
+
+  }
+  .dop-info-title {
+    font-family: 'TT Firs Nuen';
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .dop-info-descr {
+    font-family: 'TT Firs Nuen Light';
+    font-size: 20px;
+    margin: 20px;
+  }
+  .oleg_info_block {
+    width: 900px;
+    height: 480px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 50px;
+  }
+  .oleg_info_text_item {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow: hidden;
+  }
+.oleg_info_photo_1 {
+    width: 50%;
+}
+.oleg_info_photo_2 {
+    width: 33.3%;   
+}
+.oleg_info_photo_3{
+    width: 55%;
+}
