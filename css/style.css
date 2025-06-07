@@ -51,6 +51,7 @@ img{
     max-width: 100%;
 }
 body{
+    font-family: 'TT Firs Neue', sans-serif;
     min-width: 1200px;
 }
  .list-reset{
