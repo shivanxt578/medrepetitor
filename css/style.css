@@ -2,7 +2,7 @@
 @import "./fonts.css";
 @font-face {
     font-family: 'TT Firs Neue';
-    src: url('TTFirsNeue-Regular.eot');
+    src: url('/fonts/TTFirsNeue-Regular.eot');
     src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
         url('/fonts/TTFirsNeue-Regular.woff2') format('woff2'),
         url('/fonts/TTFirsNeue-Regular.woff') format('woff'),
