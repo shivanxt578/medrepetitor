@@ -1,5 +1,3 @@
-@import "./reset.css";
-@import "./fonts.css";
 html{
     box-sizing: border-box;
 }
@@ -10,7 +8,8 @@ a{
 img{
     max-width: 100%;
 }
-body{
+
+body{ 
     font-family: 'TT Firs Neue', sans-serif;
     min-width: 1200px;
 }
@@ -34,6 +33,8 @@ body{
     padding: 0 15px;
     margin: 0 auto;
 }
+
+/*Шапка*/
 .header{
 padding: 36px 0;
 }
@@ -56,8 +57,9 @@ padding: 36px 0;
 .prepod a{
     text-decoration: none;
     color: rgb(7, 7, 7);
-    font-size: 21px;
+    font-size: 18px;
     z-index: 4;
+    font-weight: 400;
 }
 .prepod a:hover{
    color: #1eaad2;
@@ -117,15 +119,12 @@ padding: 36px 0;
 .header-heading {
     padding-top: 100px;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 54px;
     line-height: 55px;
     color: #1EAAD2;
-    font-family: 'TT Firs Nuen';
-
 }
 .header-contant p {
-    font-family: 'TT Firs Nuen';
     font-size: 28px;
 }
 .header-img {
@@ -140,24 +139,24 @@ padding: 36px 0;
     color: white;
     font-size: 22px;
     border-radius: 20px;
-    font-family: 'TT Firs Nuen';
     transition: background-color 0.25s ease-in-out;
 }
 .button:hover {
    background-color: #d84501; 
 }
+
+/*Коробов Олег Игоревич*/
 .korobov_oleg-column {
     margin-top: 50px ;
     text-align: center;
 }
 .korobov_oleg-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 40px;
     margin-bottom: 20px;
 }
 .korobov_oleg-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 350;
     margin-bottom: 30px;
     font-size: 25px;
 }
@@ -190,12 +189,10 @@ padding: 36px 0;
 .oleg_info_text_item {
     font-size: 20.5px;
     line-height: 26px;
-    font-family: 'TT Firs Nuen';
 }
 .pad_text {
     font-size: 18px;
     line-height: 26px;
-    font-family: 'TT Firs Nuen';
 }
 .marg_text {
      margin-bottom: 10px;
@@ -215,6 +212,8 @@ padding: 36px 0;
     vertical-align: middle;
     transform: rotate(30deg);
 }
+
+/*Преимущества*/
 .advantages {
     padding: 90px 0;
 }
@@ -233,35 +232,34 @@ padding: 36px 0;
     height: 150px;
 }
 .advantages-card-title {
-    font-family: 'TT Firs Nuen';
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 10px;
 }
 .advantages-card-descr {
-    font-family: 'TT Firs Nuen';
 }
+
+/*Принципы*/
 .principles_column {
     text-align: center;
     margin-bottom: 50px;
 }
 .principles_title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
 }
 .principles_descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 25px;
     margin-bottom: 15px;
 }
+/*Как устроен курс*/
 .course {
     padding: 90px 0;
     text-align: center;
 }
 .course_head {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
     margin-bottom: 50px;
 }
@@ -279,7 +277,6 @@ justify-content: space-around;
     flex-direction: column;
     width: 420px;
     height: 600px;
-
     border-radius: 20px; 
     text-align: center;
     align-items: center;
@@ -290,7 +287,6 @@ justify-content: space-around;
     display: flex;
     width: 1005px;
     height: 420px;
-
     border-radius: 20px;
 }
 .course_img {
@@ -300,16 +296,17 @@ justify-content: space-around;
     width: 450px
 }
 .course-card-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 40px;
 }
 .course-card-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 20px;
 }
+
+/*Тестирование*/
 .test-bio {
     margin-bottom: 250px;
 }
@@ -323,15 +320,16 @@ justify-content: space-around;
     width: 800px;
 }
 .test-bio-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
 }
 .test-bio-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 20px;
     margin: 20px;
 }
+
+/*Тест по химии*/
 .test-chem {
     margin-bottom: 250px;
 }
@@ -345,15 +343,16 @@ justify-content: space-around;
     width: 1000px;
 }
 .test-chem-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
 }
 .test-chem-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 20px;
     margin: 20px;
 }
+
+/*Наша платформа*/
 .platform {
     margin-bottom: 150px;
 
@@ -365,25 +364,25 @@ justify-content: space-around;
     align-items: center;
 }
 .platform-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
 }
 .platform-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 20px;
     margin: 20px;
 }
 .platform-image {
     width: 800px;
 }
+
+/*Отзывы*/
 .reviews {
     margin-bottom: 120px;
     text-align: center;
 }
 .review-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
     margin-bottom: 40px;
 }
@@ -428,8 +427,7 @@ justify-content: space-around;
     text-align: center;
   }   
     .pic-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
     margin-bottom: 40px;
   }
@@ -444,13 +442,12 @@ justify-content: space-around;
 
   }
   .dop-info-title {
-    font-family: 'TT Firs Nuen';
-    font-weight: 550;
+    font-weight: 400;
     font-size: 45px;
     margin-bottom: 20px;
   }
   .dop-info-descr {
-    font-family: 'TT Firs Nuen Light';
+    font-weight: 300;
     font-size: 20px;
     margin: 20px;
   }
