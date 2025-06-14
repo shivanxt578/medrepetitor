@@ -170,7 +170,7 @@ padding: 36px 0;
     margin: 0 auto;
     margin-bottom: 30px;
     display: flex;
-    gap: 100px;
+    gap: 50px;
     z-index: 1;
 }
 .oleg_info_photo {
@@ -232,11 +232,12 @@ padding: 36px 0;
     height: 150px;
 }
 .advantages-card-title {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
     margin-bottom: 10px;
 }
 .advantages-card-descr {
+     font-weight: 300;
 }
 
 /*Принципы*/
@@ -456,7 +457,6 @@ justify-content: space-around;
     height: 480px;
     border-radius: 40px;
     overflow: hidden;
-    padding: 50px;
   }
   .oleg_info_text_item {
     font-size: 18px;
@@ -465,11 +465,41 @@ justify-content: space-around;
     overflow: hidden;
   }
 .oleg_info_photo_1 {
-    width: 50%;
+    position: relative;
+    width: 70%;
+}
+
+.oleg_photo_1_flex {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .oleg_info_photo_2 {
     width: 33.3%;   
 }
 .oleg_info_photo_3{
-    width: 55%;
+     position: relative;
+     width: 80%; 
+}
+
+.oleg_photo_3_flex {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 50px;
+    
+}
+
+.pdright{
+    padding-right: 50px;
+}
+
+.pdleft {
+    padding-left: 50px;
+}
+
+.text_center {
+    text-align: center;
+    margin-bottom: 10px;
 }
