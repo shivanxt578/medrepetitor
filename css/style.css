@@ -174,7 +174,7 @@ padding: 36px 0;
     z-index: 1;
 }
 .oleg_info_photo {
-    width: 276px;
+    width: 295px;
     z-index: 3;
 }
 .oleg_info_text {
@@ -475,11 +475,11 @@ justify-content: space-around;
     bottom: 0;
 }
 .oleg_info_photo_2 {
-    width: 33.3%;   
+    width: 33.81%;   
 }
 .oleg_info_photo_3{
      position: relative;
-     width: 80%; 
+     width: 60%; 
 }
 
 .oleg_photo_3_flex {
@@ -489,6 +489,27 @@ justify-content: space-around;
     transform: translate(-50%, -50%);
     padding-left: 50px;
     
+}
+
+.oleg_info_photo_mix {
+position: relative;
+    width: 28%;
+    height: auto;
+
+}
+
+.oleg_info_photo_mgu {
+position: absolute;
+bottom: -5px;
+right: -142px;
+
+}
+
+.oleg_info_photo_4{
+    position: absolute;
+    z-index: 10;
+    bottom: -5px;
+    right: 0px;
 }
 
 .pdright{
